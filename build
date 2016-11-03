@@ -1,2 +1,3 @@
 #!/bin/bash
-docker build -t uchilaka/njs-test docker/
+# This build includes use of the forever library to keep running
+docker build -t uchilaka/njs-test-wf docker/

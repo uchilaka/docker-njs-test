@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -p 3220:3200 -d uchilaka/njs-test
+docker run -p 3220:3200 -d uchilaka/njs-test:v0.0.1

@@ -4,6 +4,9 @@ FROM node:argon
 RUN mkdir -p /usr/src/app 
 WORKDIR /usr/src/app 
 
+# Housekeeping
+RUN apt-get update 
+
 # Install app dependencies
 COPY package.json /usr/src/app/
 RUN npm install
@@ -15,4 +18,4 @@ COPY . /usr/src/app
 EXPOSE 3200
 
 # Define the command to run your app using CMD - this defines your runtime 
-CMD [ "npm", "start" ]
+CMD [ "forever", "start" ]
