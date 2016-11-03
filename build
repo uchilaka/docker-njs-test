@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build -t uchilaka/njs-test docker/

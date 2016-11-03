@@ -1,0 +1,28 @@
+{
+  "name": "njs-test",
+  "version": "1.0.0",
+  "description": "NOde.js on Docker (example)",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uchilaka/docker-njs-test.git"
+  },
+  "author": "Uchenna Chilaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uchilaka/docker-njs-test/issues"
+  },
+  "homepage": "https://github.com/uchilaka/docker-njs-test#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.1.2",
+    "moment": "^2.15.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}

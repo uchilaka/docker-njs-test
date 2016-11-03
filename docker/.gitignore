@@ -1,0 +1,4 @@
+node_modules/*
+
+# Placeholder to make sure node_modules folder gets persisted
+!node_modules/README.md
