@@ -19,4 +19,4 @@ COPY . /usr/src/app
 EXPOSE 3200
 
 # Define the command to run your app using CMD - this defines your runtime 
-CMD [ "forever", "start" ]
+CMD [ "./www" ]

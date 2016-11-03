@@ -1,0 +1,4 @@
+#!/bin/bash
+## Update this once we know how we're kicking this off
+# PORT=3200 APP_ENDPOINT=? forever start node app.js
+PORT=3200 forever start node app.js
